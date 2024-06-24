@@ -124,14 +124,112 @@ main {
     align-items: center;
 }
 
-main .title{
-    margin-top: 60px;
-    font-size: 38px;
+main .title-cont{
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main .title-cont .title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main .title-cont .title-box img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    display: block;
+}
+
+main .title-cont .title-box .title{
+    font-size: 28px;
     font-weight: 700;
-    color: #000000;
+    color: #fff;
+
+    text-align: center;
+}
+
+main .title-cont .cnt-cont{
+    position : relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-image: linear-gradient(to bottom, #fff, #2D3443 10%);
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+main .title-cont .cnt-cont .cnt-txt{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: auto;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+main .title-cont .cnt-cont .cnt-txt img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    display: block;
+}
+
+main .title-cont .cnt-cont .cnt-txt h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+main .title-cont .cnt-cont .cnt-inner{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 65%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+main .title-cont .cnt-cont .cnt-inner .timer{
+    font-size: 50px;
+    font-weight: 700;
+
+    color: #FBBC05;
 
     text-align: center;
     flex-grow: 1;
+}
+
+main .title-cont .cnt-cont .cnt-inner .timer span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
 }
 
 .board {
@@ -144,6 +242,7 @@ main .title{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, #fff, #000000 3%);
+    opacity: 0.9;
     border-radius: 10px;
     border: 3px solid #ffffff;
 }
