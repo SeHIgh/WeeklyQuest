@@ -49,18 +49,13 @@ header {
     background-color: #fff;
 }
 
-header>h1 {
-    font-size: 32px;
-    font-weight: 700;
-    color: #000000;
-}
-
 header>nav {
-    width: 30%;
+    width: 35%;
     max-width: 400px;
     height: 50%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -85,6 +80,7 @@ header>nav>ul>li {
 }
 
 header>nav>ul>li:nth-child(4){
+    width: 80%;
     color: #fff;
     border-radius: 10px;
     background-color: #000000;
@@ -92,7 +88,7 @@ header>nav>ul>li:nth-child(4){
 
 header>nav>ul>li>a{
     color: #000000;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     width: 100%;
     height: 100%;
@@ -128,6 +124,16 @@ main {
     align-items: center;
 }
 
+main .title{
+    margin-top: 60px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #000000;
+
+    text-align: center;
+    flex-grow: 1;
+}
+
 .board {
     width: 500px;
     height: 460px;
@@ -143,6 +149,7 @@ main {
 }
 
 .board>h1 {
+    margin: auto;
     font-size: 24px;
     color: #FFCC32;
 }
