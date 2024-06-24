@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gaegu:wght@300;400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body {
     align-items: center;
     background-color: #FBBC05;
 
-    font-family: "Cute Font", sans-serif;
+    font-family: "Nanum Gothic Coding", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
