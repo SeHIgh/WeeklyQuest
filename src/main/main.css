@@ -1,0 +1,31 @@
+/* styles.css */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 8px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav.show {
+    max-height: 200px; /* Adjust according to the content height */
+}
+
+.hidden {
+    max-height: 0;
+}
