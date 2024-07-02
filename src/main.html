@@ -34,7 +34,27 @@
       </rect>
     </svg>
   </a> -->
-
+  <!-- profile box (체력상태창) -->
+  <div class="main-box">
+    <div class="text-box">
+      <p class="lv">Lv.279</p>
+      <p class="name">세햐</p>
+    </div>
+    <div class="bar-box">
+      <div class="mini-box">
+        <p class="text">HP</p>
+        <div class="HP">
+          <p>43386/43386</p>
+        </div>
+      </div>
+      <div class="mini-box">
+        <p class="text">MP</p>
+        <div class="MP">
+          <p>28063/28063</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- 하단바 매뉴 -->
   <button id="nav_toggle"><i class="fa-solid fa-bars"></i></button>
   <nav id="nav_menu" class="hidden">
@@ -45,18 +65,7 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  <!-- <script>
-    var navToggle = document.getElementById("navToggle");
-    var navMenu = document.getElementById("navMenu");
 
-    navToggle.addEventListener("click", function () {
-      if (navMenu.classList.contains("hidden")) {
-        navMenu.classList.remove("hidden");
-      } else {
-        navMenu.classList.add("hidden");
-      }
-    });
-  </script> -->
   <script src="./main/main.js"></script>
   <script src="https://kit.fontawesome.com/47a5d4bea1.js" crossorigin="anonymous"></script>
 </body>
