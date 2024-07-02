@@ -26,6 +26,6 @@ nav.show {
     max-height: 200px; /* Adjust according to the content height */
 }
 
-.hidden {
+nav.hidden {
     max-height: 0;
 }
